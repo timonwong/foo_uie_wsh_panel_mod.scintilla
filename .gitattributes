@@ -1,0 +1,46 @@
+# Set default behaviour, in case users don't have core.autocrlf set.
+* 				text=auto
+
+*.cxx 			text
+*.cpp 			text
+*.c 			text
+*.h 			text
+*.m 			text
+*.mm 			text
+*.iface 		text
+*.template 		text
+*.mk 			text
+*.py 			text
+*.rc 			text
+*.html 			text
+*.bat 			text
+*.mak 			text
+*.def 			text
+*.manifest 		text
+*.properties 	text
+*.styled 		text
+*.asp 			text
+*.php 			text
+*.vb 			text
+*.d 			text
+*.lua 			text
+*.rb 			text
+*.pl 			text
+*.txt 			text
+*.pch 			text
+*.hgeol 		text
+*.dsp 			text
+*.sln 			text
+*.vcproj 		text
+*.pro 			text
+*.gen 			text
+*makefile 		text
+README 			text
+
+*.bmp			binary
+*.cur			binary
+*.ico			binary
+*.jpg			binary
+*.png			binary
+
+tgzsrc			eol=lf
