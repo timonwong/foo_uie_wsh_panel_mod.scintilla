@@ -2090,7 +2090,7 @@ public:
 	}
 };
 
-const TCHAR ListBoxX_ClassName[] = TEXT("ListBoxX");
+const TCHAR ListBoxX_ClassName[] = TEXT("WshListBoxX");
 
 ListBox::ListBox() {
 }

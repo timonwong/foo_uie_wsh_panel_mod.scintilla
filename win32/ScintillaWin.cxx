@@ -115,8 +115,8 @@ typedef UINT_PTR (WINAPI *SetCoalescableTimerSig)(HWND hwnd, UINT_PTR nIDEvent,
 
 // GCC has trouble with the standard COM ABI so do it the old C way with explicit vtables.
 
-const TCHAR scintillaClassName[] = TEXT("Scintilla");
-const TCHAR callClassName[] = TEXT("CallTip");
+const TCHAR scintillaClassName[] = TEXT("WshScintilla");
+const TCHAR callClassName[] = TEXT("WshCallTip");
 
 #ifdef SCI_NAMESPACE
 using namespace Scintilla;
