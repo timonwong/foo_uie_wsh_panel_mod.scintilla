@@ -37,7 +37,7 @@
 *makefile       text
 README          text
 
-*.vcxproj                   eol=crlf
+*.vcxproj                   -text eol=crlf
 qt/README                   -text
 qt/ScintillaEditPy/README   -text
 cppcheck.suppress           -text
